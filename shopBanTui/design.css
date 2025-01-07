@@ -1,0 +1,47 @@
+/* slide */
+.carousel-inner img {
+    height: 600px; /* Chiều cao tối đa mong muốn */
+    object-fit: cover; /* Cắt ảnh nếu vượt quá chiều cao */
+  }
+
+/* product */
+.product .card{
+  margin: 15px 0;
+}
+
+/* introduct */
+.introduction{
+  margin-bottom: 100px;
+}
+
+
+/* Uu dai   */
+.discountion .discountion-image {
+  width: 100%; /* Để hình ảnh co dãn theo container */
+  max-width: 500px; /* Giới hạn độ rộng tối đa */
+}
+
+.custom-size {
+  width: auto; /* Hoặc giá trị cần thiết */
+  max-width: 500px; /* Giới hạn độ rộng tối đa */
+  height: auto; /* Để giữ tỷ lệ ảnh */
+    /* Giới hạn chiều cao tối đa (nếu cần) */
+}
+
+.discountion-content .discountion-content-child{
+  margin-top: 25px;
+  margin-left: 25px;
+  padding: 10px 30px;
+}
+
+/* the same */
+.vertical_space{
+  height: 150px;
+  margin:40px;
+}
+
+.title{
+  margin-bottom: 50px;
+}
+
+
